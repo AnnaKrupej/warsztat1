@@ -10,18 +10,20 @@ int main(){
 	
     	for( int i = 0; i < size; i++ )
    	 	{
-   	 	
+   	 	 
       	  for( int j = 0; j < size - 1; j++ )
       	  {
-      	    
-				if( tab[ j ] > tab[ j + 1 ] )
+      	     if(a==true)break;
+				if( tab[ j ] > tab[ j + 1 ] ){
       	           swap( tab[ j ], tab[ j + 1 ] );
       	           for(int k=0;k<8;k++)
 					{
       	           if(tab[k]<tab[k+1])true;
       	           else false;
-      	           if(a==true)break;
-					}
+      	           if(a==false)break;
+      	           	}
+      	           }
+      	           
       	  }
    	 	}
    	 

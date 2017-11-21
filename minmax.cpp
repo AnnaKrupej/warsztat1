@@ -5,8 +5,8 @@ using namespace std;
 
 int main ()
 {
-	int size=9;
-	int tab[size]={2,5,1,9,10,11,0,6,3};
+	int size=3;
+	int tab[size]={2,5,1};
 	
 
 	int max=tab[0], min=tab[0];
